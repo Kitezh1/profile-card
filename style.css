@@ -1,0 +1,53 @@
+body {
+    font-family: 'Big Shoulders Display', cursive;
+    font-family: 'Lexend Deca', sans-serif;
+    background-color: hsl(185, 75%, 39%);
+    background-image: url("/images/bg-pattern-bottom.svg"), url("/images/bg-pattern-top.svg");
+    background-position: right bottom -30vw, left top -30vw;
+    background-repeat: no-repeat;
+    margin: 0;
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+article {
+    width: 400px;
+    background-image: url(images/bg-pattern-card.svg);
+    background-repeat: no-repeat;
+    background-position: top left;
+    background-size: 100% 35%;
+    background-color: white;
+    border-radius: 1em;
+    padding: 1em;
+    padding-top: 5em;
+    text-align: center;
+}
+
+img {
+    border: 5px solid white;
+    border-radius: 3em;
+}
+
+.age {
+    color: grey;
+    font-weight: 100;
+}
+
+.city {
+    color: grey;
+}
+
+.stats-container {
+    padding-top: 1em;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    border-top: 2px solid rgb(240, 240, 240);
+    line-height: 0.7em;
+}
+
+.grey-text {
+    color: grey;
+}
