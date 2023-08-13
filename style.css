@@ -2,7 +2,7 @@ body {
     font-family: 'Big Shoulders Display', cursive;
     font-family: 'Lexend Deca', sans-serif;
     background-color: hsl(185, 75%, 39%);
-    background-image: url("/images/bg-pattern-bottom.svg"), url("/images/bg-pattern-top.svg");
+    background-image: url("images/bg-pattern-bottom.svg"), url("images/bg-pattern-top.svg");
     background-position: right bottom -30vw, left top -30vw;
     background-repeat: no-repeat;
     margin: 0;
