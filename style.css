@@ -10,7 +10,7 @@ body {
 }
 
 .top {
-    z-index: -1;
+    z-index: -1; /* Forces image to the background */
     position: absolute;
     top: 0;
     left: 0;
@@ -18,11 +18,11 @@ body {
     height: 50%;
     /* background-color: antiquewhite; */
     background-image: url("images/bg-pattern-top.svg");
-    transform: rotate(180deg);
+    transform: rotate(180deg); /* rotates image 180deg */
 }
 
 .bottom {
-    z-index: -1;
+    z-index: -1; /* Forces image to the background */
     position: absolute;
     bottom: 0;
     right: 0;
